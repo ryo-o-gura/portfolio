@@ -11,7 +11,6 @@
   .first__ttl {
     font-size: 9vw;
   }
-
   .top__ttl {
     font-size: 20vw;
   }
@@ -49,7 +48,7 @@
     text-shadow: 10px 10px 0px rgba(226, 177, 43, 0.3);
   }
 
-  .cat-wrapper__ttl_desc{
+  .cat-wrapper__ttl_desc {
     font-size: 15px;
     margin-left: 0;
   }
@@ -59,7 +58,7 @@
     height: 60%;
     margin-top: 30px;
   }
-  .skills__list-ttl{
+  .skills__list-ttl {
     font-size: 20px;
   }
 
@@ -73,12 +72,13 @@
   .works__list {
     text-align: center;
     width: 100%;
+    max-width: 600px;
     height: 60%;
-    margin: 0 auto;
   }
   .active-prev,
   .active-next {
     width: 80%;
+    max-width: 500px;
     height: 50%;
     margin: 0 auto;
   }
@@ -129,5 +129,16 @@
   .contact__icon {
     font-size: 60px;
     margin: 30px 0;
+  }
+  @media screen and (min-width: 500px) {
+    .first__ttl {
+      font-size: 6vw;
+    }
+    .active-prev {
+      top: 250px;
+    }
+    .active-next {
+      top: 350px;
+    }
   }
 }
