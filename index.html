@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+    <title>Portfolio By RyoOgura</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+  </head>
+  <body>
+    <div class="cursor"></div>
+    <div class="follower"></div>
+    <div class="first">
+      <h2 class="first__ttl">Powered By RyoOgura</h2>
+    </div>
+    <div class="top">
+      <video
+        class="top__video"
+        src="./img/video.mp4"
+        loop
+        autoplay
+        muted
+        playsinline
+      ></video>
+      <div class="top__inner top__inner_top">
+        <h1 class="top__ttl">Portfolio</h1>
+      </div>
+      <div class="top__inner top__inner_btm">
+        <p class="top__ttl">RyoOgura</p>
+      </div>
+
+      <span class="top__btn btn">GO</span>
+    </div>
+    <div class="layer layer__1 layer__first"></div>
+    <div class="layer layer__2 layer__first"></div>
+    <div class="layer layer__1 layer__skills"></div>
+    <div class="layer layer__2 layer__skills"></div>
+    <div class="layer layer__1 layer__works"></div>
+    <div class="layer layer__2 layer__works"></div>
+    <div class="layer layer__1 layer__about"></div>
+    <div class="layer layer__2 layer__about"></div>
+    <div class="layer layer__1 layer__contact"></div>
+    <div class="layer layer__2 layer__contact"></div>
+
+    <div class="cat">
+      <div class="cat__inner">
+        <ul>
+          <li class="cat__skills cat-list btn">Skills</li>
+          <li class="cat__works cat-list btn">Works</li>
+          <li class="cat__about cat-list btn">About</li>
+          <li class="cat__contact cat-list btn">Contact</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="skills cat-wrapper">
+      <span class="cat-wrapper__close btn skills__close">×</span>
+      <h2 class="cat-wrapper__ttl">Skills</h2>
+      <ul class="skills__lists">
+        <li class="skills__list">
+          <p class="skills__list-ttl">HTML・CSS</p>
+          <div class="skills__progress">
+            <div class="skills__progress-inner skills__progress_1"></div>
+          </div>
+        </li>
+        <li class="skills__list">
+          <p class="skills__list-ttl">JavaScript・jQuery</p>
+          <div class="skills__progress">
+            <div class="skills__progress-inner skills__progress_2"></div>
+          </div>
+        </li>
+        <li class="skills__list">
+          <p class="skills__list-ttl">Vue.js・Nuxt.js</p>
+          <div class="skills__progress">
+            <div class="skills__progress-inner skills__progress_3"></div>
+          </div>
+        </li>
+        <li class="skills__list">
+          <p class="skills__list-ttl">AdobeXD, Illustrator, Figma</p>
+          <div class="skills__progress">
+            <div class="skills__progress-inner skills__progress_4"></div>
+          </div>
+        </li>
+        <li class="skills__list">
+          <p class="skills__list-ttl">WordPress</p>
+          <div class="skills__progress">
+            <div class="skills__progress-inner skills__progress_5"></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="works cat-wrapper">
+      <span class="cat-wrapper__close btn works__close">×</span>
+      <div class="cat-wrapper__ttl">
+        <h2>Works</h2>
+        <p class="cat-wrapper__ttl_desc">※2020年11月現在</p>
+      </div>
+      <ul class="works__lists">
+        <div class="works__prev">
+          <i class="far btn fa-arrow-alt-circle-up works__prev-btn"></i>
+        </div>
+        <li class="works__list active works__5">
+          <div class="works__inner">
+            <a
+              href="http://hf.aeonsquare.net/shingu/?bannerid=sh25_&exmid=CPC&utm_source=google&utm_medium=paidsearch&utm_campaign=f_shingu_PS_G&utm_content=f_shingu_PS_G_4function_1007&gclid=CjwKCAjw0On8BRAgEiwAincsHEqduuRtW1v_iKyQ5zN7bGC3747qXk7d3mor0YFiwOvbNQ1fRmA3exoC6QQQAvD_BwE"
+              target="_blank"
+              class="works__link"
+            >
+              <p class="works__ttl">AEON HomeCoordy</p>
+            </a>
+          </div>
+        </li>
+        <li class="works__list works__4">
+          <div class="works__inner">
+            <a
+              href="http://www.diane-bonheur.com/"
+              target="_blank"
+              class="works__link"
+            >
+              <p class="works__ttl">DianeBonheur (一部改修参画)</p>
+            </a>
+          </div>
+        </li>
+        <li class="works__list works__3">
+          <div class="works__inner">
+            <a
+              href="http://rmok.wp.xdomain.jp/"
+              target="_blank"
+              class="works__link"
+            >
+              <p class="works__ttl">東京大学女子サッカー部</p>
+            </a>
+          </div>
+        </li>
+        <li class="works__list works__2">
+          <div class="works__inner">
+            <a
+              href="https://ryo-o-gura.github.io/niseko/"
+              target="_blank"
+              class="works__link"
+            >
+              <p class="works__ttl">ニセコ白雲荘（模写）</p>
+            </a>
+          </div>
+        </li>
+        <li class="works__list works__1">
+          <div class="works__inner">
+            <a href="" target="_blank" class="works__link">
+              <p class="works__ttl">Coming Soon!</p>
+            </a>
+          </div>
+        </li>
+        <div class="works__next">
+          <i class="far btn fa-arrow-alt-circle-down works__next-btn"></i>
+        </div>
+      </ul>
+    </div>
+
+    <div class="about cat-wrapper">
+      <div class="about__mv">
+        <span class="cat-wrapper__close btn about__close">×</span>
+        <h2 class="cat-wrapper__ttl">About</h2>
+        <div class="about__scroll">
+          <p>SCROLL↓</p>
+        </div>
+      </div>
+      <div class="about__main">
+        <span class="about__back-icon">
+          <i class="fas fa-chevron-circle-up"></i>
+        </span>
+        <div class="main__top about__left">
+          <div class="about__left-section main__top-section">
+            <p>
+              Name：小倉崚<span class="main__top-section_en">OguraRyo</span>
+            </p>
+            <p>Age：20</p>
+            <div class="about__scroll about__scroll_top">
+              <p>SCROLL↓</p>
+            </div>
+          </div>
+        </div>
+        <div class="main__second about-right">
+          <div class="about__right-section">
+            <div class="main__second-section slideIn">
+              <p class="slideIn__txt">
+                横浜国立大学 教育学部 1年<br />
+                複数のIT会社にてエンジニアとして活動中。<br />
+                現在はVueでのチーム開発を中心に動いている。
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="main__third about__left">
+          <div class="about__left-section">
+            <div class="main__third-section slideIn">
+              <p class="slideIn__txt">
+                １番の目標は、”かっこいいパパになること”<br />
+                そのために、”多くの人に必要とされるエンジニア”を目指している。<br />
+                学生時代はサッカー漬けの毎日。アウトドア・新しいものが大好き。<br />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact cat-wrapper">
+      <span class="cat-wrapper__close btn contact__close">×</span>
+      <h2 class="cat-wrapper__ttl">Contact</h2>
+      <ul class="contact__lists">
+        <li class="contact__list">
+          <a
+            href="https://crowdworks.jp/public/employees/2755700?ref=mypage-nav1-account"
+            target="_blank"
+          >
+            <img src="./img/crowd.jpg" alt="ロゴ" class="contact__logo" />
+          </a>
+        </li>
+        <li class="contact__list">
+          <a href="mailto:ryo.ogura.1022@gmail.com"
+            ><img src="./img/gmail.png" alt="ロゴ" class="contact__logo"
+          /></a>
+        </li>
+        <li class="contact__list">
+          <a href="https://twitter.com/Rmooook" target="_blank"
+            ><img
+              src="./img/Twitter_Social_Icon_Square_Color.png"
+              alt="ロゴ"
+              class="contact__logo"
+          /></a>
+        </li>
+      </ul>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
